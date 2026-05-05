@@ -1,0 +1,17 @@
+{
+  "name": "healthtrack-app",
+  "version": "1.0.0",
+  "description": "MERN Stack Health Tracking Application",
+  "private": true,
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview",
+    "lint": "cd client && npm run lint",
+    "server": "cd server && node server.js",
+    "server-dev": "cd server && npx nodemon server.js"
+  },
+  "keywords": ["mern", "health", "tracking"],
+  "author": "",
+  "license": "ISC"
+}
