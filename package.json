@@ -11,7 +11,14 @@
     "server": "cd server && node server.js",
     "server-dev": "cd server && npx nodemon server.js"
   },
-  "keywords": ["mern", "health", "tracking"],
+  "keywords": [
+    "mern",
+    "health",
+    "tracking"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lucide-react": "^1.14.0"
+  }
 }
